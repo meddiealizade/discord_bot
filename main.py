@@ -2,9 +2,7 @@ from config import TOKEN
 import discord
 from discord import Message, Option, Member
 from discord.commands.context import ApplicationContext as AC
-import datetime
-import math
-import asyncio
+import datetime, math, asyncio
 
 bot = discord.Bot(intents=discord.Intents.all())
 
